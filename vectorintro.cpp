@@ -25,10 +25,17 @@ int main (){
 
     //using the fill algorithm
 
-    vector<int> numbers(10);
-    int i;
-    fill(numbers.begin(), numbers.end(), 5);
-     for (i = 0; i < numbers.size(); i++){
-           cout<<numbers[i]<<endl;
-     }
-}
+    // vector<int> numbers(10);
+    // int i;
+    // fill(numbers.begin(), numbers.end(), 5);
+    //  for (i = 0; i < numbers.size(); i++){
+    //        cout<<numbers[i]<<endl;
+    //  }
+   
+    vector<bool> numbers(10);
+    fill(numbers.begin(),numbers.end(), false);
+    for (int vec: numbers){
+
+    cout<<vec<<endl;
+ }
+} 
