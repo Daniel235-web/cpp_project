@@ -1,4 +1,9 @@
 //Topic............ vector of vector and array of vector
+//when you want to use a fix number of role and any size of columns you should use array of vectors
+// but when you want everything to be dynamic but roles and colums , no fix rows and colums , we use vectors of vectors
+//syntax for array of vectors
+//vector<datatype>  variable[n];
+
 
 //array of vectors
 #include<iostream>
