@@ -6,6 +6,8 @@ class Rectangle {
     int height ;
     int breath;
     public:
+  
+   
     void SetLength(int h){
         if (h < 0) {
             height = 1;
@@ -36,18 +38,42 @@ class Rectangle {
     int perimeter(){
         return 2 * (height + breath);
     }
+      //contrructors
+    //non parameter contructors 
+    Rectangle(){
+        height = 0;
+        breath = 0;
+    }
+      //parametr constuctors
+    Rectangle(int h, int b){
+        SetLength(h);
+        SetBreath(b);
+
+    }
+    //copy contructors
+    Rectangle(Rectangle &copy){
+        height = copy.height;
+        breath  = copy.breath;
+    }
 
 };
 
 int main (){
-    Rectangle r1;
-    r1.SetBreath(-10);
-    r1.SetLength(30);
+     Rectangle r1(10,20);
+    // r1.SetBreath();
+    // r1.SetLength();
+    Rectangle r2(r1);
     r1.GetBreath();
     r1.GetHeight();
-    cout<<r1.area()<<endl;
-    cout<<r1.GetBreath()<<endl;
-    cout<<r1.GetHeight()<<endl;
+   
+   
+
+    cout<<r2.area()<<endl;
+    cout<<r2.GetBreath()<<endl;
+    cout<<r2.GetHeight()<<endl;
+   
+
+    
    
   
 
