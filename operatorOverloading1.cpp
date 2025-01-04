@@ -23,14 +23,15 @@ class complex {
 //     return temp;
 //    }
 //using friend functions
-friend complex operator+(complex c4, complex c5){
+friend complex operator+(complex , complex );
+
+};
+ complex operator+(complex c4, complex c5){
     complex temp;
     temp.real = c4.real + c5.real;
     temp.imaginary = c4.imaginary + c5.imaginary;
     return temp;
 }
-
-};
 int main(){
     complex c1(3,7);
     complex c2(2, 8);
