@@ -24,6 +24,7 @@ class complex {
 //    }
 //using friend functions
 friend complex operator+(complex , complex );
+friend ostream &  operator<<(ostream &, complex &);
 
 };
  complex operator+(complex c4, complex c5){
@@ -32,11 +33,16 @@ friend complex operator+(complex , complex );
     temp.imaginary = c4.imaginary + c5.imaginary;
     return temp;
 }
+ostream & operator<<(ostream &o, complex &c){
+    o<<c.real<<"+i"<<c.imaginary<<endl;
+    return o;
+}
 int main(){
     complex c1(3,7);
     complex c2(2, 8);
     complex c3;
     c3 = c1 + c2;
-    c3.dislay();
+    //c3.dislay();
+    cout<<c3;
     
 }
