@@ -1,0 +1,6 @@
+Datas are informations like videos, files , text, audio , e.t.c
+Database is a collection of related data that represents some real world entities
+information : we extract information from Datas
+..dbms will interact with the database for security and some other thngs like inconsistency and redundancy
+dbms contructs , manipulate anc create the database
+data + dbms = database

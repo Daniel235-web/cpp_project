@@ -1,0 +1,26 @@
+software is a set of tested programs with documentation
+types of software :
+application sofware and system sofware
+application sofware are built to execute some specific task like our vlc and audio player and so on.
+system sofware are used to operates on our hardware, or in other other words it provide platforms for application software to run
+so operating sytems comes under system software which provides allows application software to run on it and itself communicating with the hardware
+e.g linkers , debuggers are also sytem softwares.
+examples of hardwares are cpu, i/o devices and memmory
+
+basic functionalities of operating systems
+it acts as a resorce manager e.g cpu , i/o devices and memmory
+
+if some person like 3 or mores want to access for a certain period of time , it takes care of it .
+it serves as an interface for the user and the hardware
+it serves as a process manager (known as schedulling)
+it also serves an memmory manager , which process will be there in the memomory and for how long
+it also serves as an i/o manager , which input or output it will take first when connected to certain devices from a printer for intance.
+it serves as storage management , how the files is to be stored permanently on the hard disk and all.
+ther, is also what they call file sytem that takes care fo the files directories 
+it also takes care of the security
+
+goals of operating sytem are convieniency and efficiency
+types of user interface are 
+GUI AND CUI
+
+

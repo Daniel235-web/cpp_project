@@ -1,0 +1,1 @@
+//virtual based functions removes ambigueity or confusion from parent class in the derived class
