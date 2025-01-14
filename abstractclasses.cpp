@@ -7,7 +7,7 @@
 //1. a base class with all concrete functions , that ie  the classes has full built functions, here the purpose is just for reuseability
 //.a base class with all concrete and virtual fucntions the purpose is both for reuseability and and polymorphism because the virtal functions most be overidden by derived functions.
 //.then if a base class is having all pure virtual funcitons the only purpose is for polymorphism and such a base class we can refer to it as interface
-//note we cant create objects of abstract class
+//note we cant create objects of abstract class, i mean when all the functions are fully pure virtual
 
 #include<iostream>
 using namespace std;
@@ -53,4 +53,3 @@ class lambo: public car {
     obj->start();
     obj->stop();
   }
-  
